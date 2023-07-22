@@ -1,4 +1,4 @@
---Script that creates a trigger that resets an attribute
+-- Script that creates a trigger that resets an attribute
 CREATE trigger reset_valid
 before update ON users
 for each row

@@ -1,5 +1,5 @@
---script that creates a stored procedure ComputeAverageScoreForUser
---It computes and store the average score for a student
+-- script that creates a stored procedure ComputeAverageScoreForUser
+-- It computes and store the average score for a student
 DROP PROCEDURE IF EXISTS ComputeAverageScoreForUser;
 DELIMITER |
 CREATE PROCEDURE ComputeAverageScoreForUser(
